@@ -21,7 +21,17 @@ A stunning, fully responsive authentication page with beautiful animations and s
 
 ## 🎯 Live Preview
 
-Simply open `index.html` in your browser to see the authentication page in action.
+Open `index.html` in your browser to see the authentication page in action. No build process or server setup required!
+
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/pragyanji/signin-signup-page.git
+cd signin-signup-page
+# Open index.html in your browser
+```
+
+That's it! No dependencies, no setup required.
 
 ## 📂 Project Structure
 
@@ -65,7 +75,7 @@ signin-signup-page/
 ## 🎮 Usage
 
 ### Toggle Between Forms
-- Click "Sign Up" button in the sign-in panel to switch to registration
+- Click "Create Account" button in the sign-in panel to switch to registration
 - Click "Sign In" button in the sign-up panel to switch back
 
 ### Form Validation
@@ -228,7 +238,7 @@ This project is open source and available under the MIT License. See LICENSE fil
 
 **Pragyan Pandey**
 - GitHub: [@pragyanji](https://github.com/pragyanji)
-- Portfolio: [Add your portfolio link]
+- Repository: [signin-signup-page](https://github.com/pragyanji/signin-signup-page)
 
 ## 🤝 Contributing
 
@@ -247,12 +257,11 @@ If you found this project helpful, please consider:
 - Contributing improvements
 - Providing feedback
 
-## 📞 Contact & Support
+## 📞 Support & Feedback
 
 Have questions or suggestions? Feel free to:
-- Open an issue on GitHub
-- Contact via email
-- Check existing documentation
+- Open an issue on [GitHub Issues](https://github.com/pragyanji/signin-signup-page/issues)
+- Check the [discussions](https://github.com/pragyanji/signin-signup-page/discussions)
 
 ---
 
