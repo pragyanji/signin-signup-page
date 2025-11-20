@@ -3,6 +3,27 @@ const createAccountBtn = document.getElementById('createAccountBtn');
 const signInBtn = document.getElementById('signInBtn');
 const container = document.querySelector('.container');
 
+// Password Toggle Functionality
+document.querySelectorAll('.password-toggle').forEach((button) => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const wrapper = button.closest('.password-input-wrapper');
+        const input = wrapper.querySelector('.password-input');
+        const eyeIcon = button.querySelector('.eye-icon');
+        const eyeOffIcon = button.querySelector('.eye-off-icon');
+        
+        if (input.type === 'password') {
+            input.type = 'text';
+            eyeIcon.style.display = 'none';
+            eyeOffIcon.style.display = 'block';
+        } else {
+            input.type = 'password';
+            eyeIcon.style.display = 'block';
+            eyeOffIcon.style.display = 'none';
+        }
+    });
+});
+
 // Toggle to Sign Up
 if (createAccountBtn) {
     createAccountBtn.addEventListener('click', (e) => {
